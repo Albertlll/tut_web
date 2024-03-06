@@ -250,7 +250,15 @@ ul.right_navbar_block{
 
 }
 
-.filter_inp:checked + body{
+.filter_inp{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.filter_inp:checked + .filter_cb_custom{
     background-color: #408FFF;
 }
 
