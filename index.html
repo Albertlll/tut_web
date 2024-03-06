@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-content">
+            <div class="logo">
+                <img src="src/icons/logo.svg" alt="">
+            </div>
+            <!-- <div class="right_navbar_block"> -->
+
+            <ul class="right_navbar_block">
+                <li class="navbar_elem">о нас</li>
+                <li class="navbar_elem">курсы</li>
+                <li class="navbar_elem">
+                    <img class="bell_icon" src="src/icons/bell.svg" alt="">
+                </li>
+                <li class="navbar_elem">
+                    <div class="avatar">
+                    </div>
+                </li>
+            </ul>
+            
+            <!-- </div> -->
+        </div>
+
+    </div>
+
+
+    <div class="filter-container">
+
+        <div class="main_label">
+            Курсы
+        </div>
+        <ul class="filter">
+                <li class="is_paid">
+                    <ul>
+                        <li class="filter_param">
+                            <input id ="paid" class="filter_inp" type="checkbox" name="radio" value="1" checked>
+                            <label for="paid">платно</label>
+                        </li>
+                        
+                        <li class="filter_param">
+                            <input id ="not_paid" class="filter_inp" type="checkbox" name="radio" value="1" checked>
+                            <label for="not_paid">бесплатно</label>
+                        </li>
+                    </ul>
+                
+                </li>
+
+                <li class="difficulty">
+                    <ul>
+                        <li class="filter-param">
+                            <span class="filter_cb_custom"></span>
+                            <input id ="easy" class="filter_inp" type="checkbox" name="radio" value="1" checked>
+                            <label for="easy">легко</label>
+                        </li>
+
+                        <li class="filter-param">
+                            <span class="filter_cb_custom"></span>
+                            <input id ="normal" class="filter_inp" type="checkbox" name="radio" value="1" checked>
+                            <label for="normal">нормально</label>
+                        </li>
+                        <li class="filter-param">
+                            <span class="filter_cb_custom"></span>
+                            <input id ="hard" class="filter_inp" type="checkbox" name="radio" value="1" checked>
+                            <label for="hard">сложно</label>
+                        </li>
+                    </ul>
+                </li>
+                
+
+            </ul>
+
+    </div>
+
+
+
+    <!-- <div class="courses_grid fix">
+        <div class="search_container search_block">
+            <input  name="search" type="text" id="search_nav">
+            <img class="search_icon" src="src/icons/search.svg" alt="">
+        </div>
+    </div>
+     -->
+
+    <!-- <div class="fast_finders_container">
+        <ul class="fast_finders">
+            <li class="tag">
+                <div class="search_container">
+                    <input  name="search" type="text" id="search_nav">
+                    <img class="search_icon" src="src/icons/search.svg" alt="">
+                </div>
+            </li>
+        </ul>
+    </div> -->
+
+    <div class="search_substrate"></div>
+
+    <div class="content">
+        <div class="courses_grid">
+                <div class="search_container">
+                    <input  name="search" placeholder="Найти" type="text" id="search_nav">
+                    <img class="search_icon" src="src/icons/search.svg" alt="">
+                </div>
+
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+                <div class="course">
+                    <div class="course_preview"></div>
+                    <div class="course_name">Основы проектирования баз данных</div>
+                    <div class="course_author_name">Alan</div>
+                    <div class="course_author_avatar"></div>
+                </div>
+        </div>
+    </div>
+
+
+
+    
+   
+
+</body>
+</html>
