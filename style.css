@@ -67,7 +67,7 @@ ul.right_navbar_block{
     /* visibility: collapse; */
 }
 
-#search_nav{
+.search_nav{
     position: absolute;
     margin-left: 55px;
     margin-top: 2px;
@@ -77,7 +77,10 @@ ul.right_navbar_block{
     line-height: 35.46px;
     outline: none;
     height: 50px;
+
+    min-width: 100px;
     width: calc(100% - 75px);
+
     border: none;
     color: white;
     background-color: rgba(0, 0, 0, 0);
@@ -90,7 +93,7 @@ ul.right_navbar_block{
 }
 
 
-#search_nav::placeholder{
+.search_nav::placeholder{
     color: white;
 }
 
@@ -366,6 +369,7 @@ ul.right_navbar_block{
 
 #search_container_mobile{
     display: none;
+    position: relative;
 }
 
 
@@ -426,7 +430,9 @@ ul.right_navbar_block{
     
     #search_container_mobile{
         display: inline;
-        margin-left: auto;
+        /* margin-left: auto; */
+        margin-left: 40px;
+
     }
 
     #search_container_in_grid{
@@ -436,6 +442,4 @@ ul.right_navbar_block{
     .content{
         margin-top: 120px;
     }
-
-
 }
