@@ -370,6 +370,8 @@ ul.right_navbar_block{
 #search_container_mobile{
     display: none;
     position: relative;
+    margin-left: 10px;
+    min-width: 170px;
 }
 
 
@@ -430,9 +432,6 @@ ul.right_navbar_block{
     
     #search_container_mobile{
         display: inline;
-        /* margin-left: auto; */
-        margin-left: 40px;
-
     }
 
     #search_container_in_grid{
