@@ -43,7 +43,8 @@
 }
 
 .logo{
-    position: relative;   
+    position: relative;
+    padding-right: 10px;
 }
 
 
@@ -72,7 +73,7 @@ ul.right_navbar_block{
     margin-left: 55px;
     margin-top: 2px;
     font-family: Onest;
-    font-size: 30px;
+    font-size: 2em;
     font-weight: 700;
     line-height: 35.46px;
     outline: none;
@@ -291,6 +292,8 @@ ul.right_navbar_block{
     padding-left: 250px;
     margin-top: 250px;
     max-width: 100%;
+
+
 }
 
 .courses_grid{
@@ -299,6 +302,9 @@ ul.right_navbar_block{
     grid-template-columns: repeat(auto-fill, 340px);
     column-gap: 50px;
     row-gap: 40px;
+/* 
+    padding-left: 25px;
+    padding-right: 25px; */
 }
 
 
@@ -310,8 +316,8 @@ ul.right_navbar_block{
   
 .course_preview {
     position: absolute;
-    width: 340px;
-    height: 191px;
+    width: 100%;
+    height: 74%;
     border-radius: 20px;
     background: linear-gradient(135deg, #c8c8c8 0%, #e5e9ff 100%);
     background-blend-mode: normal;
@@ -324,9 +330,9 @@ ul.right_navbar_block{
     overflow: hidden;
 
     left: 0px;
-    top: 202px;
-    width: 300px;
-    height: 27px;
+    top: 80.8%;
+    width: 90%;
+    height: 10.5%;
     font-family: 'Montserrat';
     font-size: 18px;
     font-weight: 600;
@@ -337,9 +343,9 @@ ul.right_navbar_block{
 .course_author_name {
     position: absolute;
     left: 0px;
-    top: 232px;
+    top: 91%;
     width: 44px;
-    height: 23px;
+    height: 9%;
     color: #4b4b4b;
     font-family: 'Montserrat';
     font-size: 15px;
@@ -349,8 +355,8 @@ ul.right_navbar_block{
   
 .course_author_avatar {
     position: absolute;
-    left: 310px;
-    top: 202px;
+    left: 91.1%;
+    top: 80.8%;
     width: 30px;
     height: 30px;
     background: #afd0ff;
@@ -370,12 +376,15 @@ ul.right_navbar_block{
 #search_container_mobile{
     display: none;
     position: relative;
-    margin-left: 10px;
-    min-width: 170px;
+    /* margin-left: auto; */
+    width: 169px;
+    /* min-width: 170px; */
 }
 
 
-
+.mobile_navbar_icon{
+    display: none;
+}
 /* @media all and (max-width: 725px) {
     ul.right_navbar_block{
         display: none;
@@ -415,7 +424,11 @@ ul.right_navbar_block{
     }
 
     .navbar-content{
-        justify-content: start;
+        justify-content: space-between;
+    }
+
+    .mobile_navbar_icon{
+        display: inline;
     }
 
     /* .navbar-content{
@@ -428,7 +441,14 @@ ul.right_navbar_block{
     .search_substrate{
         display: none;
     }
-    
+
+
+    .logo{
+        display: none;
+    }
+    .courses_grid{
+        grid-template-columns: repeat(auto-fill, 302px);
+    }
     
     #search_container_mobile{
         display: inline;
@@ -440,5 +460,13 @@ ul.right_navbar_block{
 
     .content{
         margin-top: 120px;
+    }
+    .course{
+        width: 302px;
+        height: 226px;
+    }
+
+    .search_nav{
+        font-size: 25px;
     }
 }
