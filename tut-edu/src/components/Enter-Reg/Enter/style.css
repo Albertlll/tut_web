@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+
+*{
+    padding: 0; margin: 0;
+}
+
+#enter_block{
+    position: relative;
+    margin: auto;
+    margin-top: calc(50vh - calc(571px / 2));
+    box-shadow: 0px 0px 50px rgba(64, 143, 255, 0.5);
+    border-radius: 100px;
+    width: 800px;
+    height: 571px;
+    font-family: Onest;
+}
+
+h1{    
+    width: fit-content;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 35px;
+}
+
+#enter_block_content_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 84px;
+    width: 100%;
+}
+
+.enter_input{
+    font-family: 'Onest';
+    height: 67px;
+    margin-left: 48px;
+    width: calc(100% - 96px);
+    outline: none;
+    border: none;
+    border-radius: 25px;
+
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+.enter_input::placeholder{
+    font-family: 'Onest';
+    font-weight: 700;
+    font-size: 25px;
+    color: #A8CCFF;
+}
+
+.inp_wrapper{
+    top: 50%;
+
+    margin-top: 48px;
+    height: 67px;
+    width: 482px;
+    outline: none;
+    border: 3px solid #408FFF;
+    border-radius: 25px;
+
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#email_wrapper{
+    margin-top: 17px;
+}
+
+#enter_label_wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+.enter_btn{
+    background-color: #408FFF;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Onest';
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+}
+
+.enter_btn:hover{
+    background-color: rgba(64, 144, 255, 0.8);
+    
+}
+
+.btn_center_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#enter_btn_wrapper{
+    margin-top: 17px;
+}
+
+
+
+.error_input{
+    border: 3px solid #FF808F;
+    box-shadow: 0px 0px 20px #FF465C;
+}
+
+
+.enter_help_links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    width: 100%;
+}
+
+.enter_help_links li{
+    display: inline-block;
+    margin: 0 10px;
+}

@@ -1,6 +1,6 @@
 import './Header.css'
-import logo from'../../static/icons/logo.svg'
-import bell from '../../static/icons/bell.svg'
+import logo from'../../../../static/icons/logo.svg'
+import bell from '../../../../static/icons/bell.svg'
 function Header(){
     return (
         <div id='header'>

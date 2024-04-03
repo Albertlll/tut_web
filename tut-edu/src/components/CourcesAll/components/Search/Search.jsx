@@ -1,5 +1,6 @@
 import './Search.css'
-import search from '../../static/icons/search.svg'
+import search from '../../../../static/icons/search.svg'
+
 function Search(props) {
     var place = ''
     if (props.place == 'grid'){

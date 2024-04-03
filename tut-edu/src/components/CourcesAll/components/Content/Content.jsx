@@ -1,6 +1,5 @@
 import CourcesGrid from "../CourcesGrid/CourcesGrid.jsx"
-import "./Content.css"
-
+import './Content.css'
 function Content(){
     return (
         <div id='content'>
