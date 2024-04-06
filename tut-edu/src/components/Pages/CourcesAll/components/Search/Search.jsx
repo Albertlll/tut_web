@@ -1,5 +1,5 @@
 import './Search.css'
-import search from '../../../../static/icons/search.svg'
+import search from './search.svg'
 
 function Search(props) {
     var place = ''
