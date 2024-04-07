@@ -60,9 +60,9 @@ h1{
 
 
 .error_input::after{
-
     content: url('./danger.svg');
-    position: absolute;
+    position: relative;
+    right: -60px;
 }
 
 .enter_input{
@@ -94,7 +94,8 @@ h1{
 
 
 
-.enter_btn{
+#enter_btn{
+    margin-top: 17px;
     background-color: #408FFF;
     border-radius: 25px;
     color: white;
@@ -108,4 +109,21 @@ h1{
 .enter_btn:hover{
     background-color: rgba(64, 144, 255, 0.8);
     
+}
+.enter_help_links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    width: 100%;
+}
+
+.enter_help_links li{
+    font-family: 'Onest';
+    font-weight: 700;
+
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #408FFF;
 }

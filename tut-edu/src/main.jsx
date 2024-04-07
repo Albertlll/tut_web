@@ -14,7 +14,7 @@ const root = createRoot(container);
 
 root.render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/tut_web/'>
       <Header/>
 
       <Routes>

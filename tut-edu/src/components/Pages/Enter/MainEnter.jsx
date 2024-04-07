@@ -16,9 +16,14 @@ export default function MainAllCources(){
                 <input id="email_input" type="password" class="enter_input" placeholder="Пароль"/>
             </div>
 
-            <button class="enter_btn" id="solve_btn">
+            <button id="enter_btn">
                 Войти
             </button>
+
+            <ul class="enter_help_links">
+                <li>Нет аккаунта?</li>
+                <li>Забыли пароль?</li>
+            </ul>
 
         </div>
     </div>
